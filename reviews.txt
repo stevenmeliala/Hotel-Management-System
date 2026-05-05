@@ -1,0 +1,31 @@
+U001	5	Excellent service and clean room	Grand Imperial Hotel
+U001	4	Great location but breakfast can improve	Grand Imperial Hotel
+U007	5	Staff were very attentive	Grand Imperial Hotel
+U003	5	Very nice and clean	Grand Imperial Hotel
+U001	5	Loved the facilities and friendly staff	Seaview Resort
+U004	5	Loved the pool and view	Seaview Resort
+U008	4	Nice but pool was crowded	Seaview Resort
+U002	4	Comfortable stay and good WiFi	Bayfront Hotel
+U002	3	Average experience, room was small	CityView Hotel
+U009	4	Good location and clean room	CityView Hotel
+U009	3	Parking was difficult	CityView Hotel
+U002	5	Superb hospitality	Sunrise Deluxe Hotel
+U007	5	Fantastic breakfast buffet	Sunrise Deluxe Hotel
+U007	4	Comfortable and elegant design	Sunrise Deluxe Hotel
+U003	5	Room was spacious and modern	Urban Heights Hotel
+U003	4	Good value for money	Urban Heights Hotel
+U003	2	Aircond not cold, slow service	Bayfront Lodge
+U004	3	Decent hotel, nothing special	Bayfront Lodge
+U004	4	Friendly staff but food choices limited	Hilltop Residence
+U005	5	Exceptional service for the price	Hilltop Residence
+U010	2	Old furniture and noisy environment	Hilltop Residence
+U005	4	Nice ambience, quiet environment	GreenLeaf Hotel
+U005	3	Standard room, basic amenities	GreenLeaf Hotel
+U009	5	Great food and friendly staff	GreenLeaf Hotel
+U006	5	Very clean and tidy rooms	Paradise Suites
+U006	4	Good for short stays	Paradise Suites
+U006	3	Acceptable but walls too thin	BudgetStay Inn
+U010	3	Simple and affordable	BudgetStay Inn
+U010	4	Better than expected	BudgetStay Inn
+U008	5	Top-tier service and comfortable bed	Royale Prestige Hotel
+U008	5	Love the luxury vibe	Royale Prestige Hotel
