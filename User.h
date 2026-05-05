@@ -5,23 +5,25 @@
 #include <string>
 using namespace std;
 
-// Base Class User
+// Base Class User - demonstrates Abstraction and serves as a blueprint
 class User {
+// Encapsulation: Protected access modifier allows inherited classes to access members while hiding them from outside
 protected:
   string id;
   string name;
   string state;
   string email;
 
+// Encapsulation: Public access modifier provides an interface to interact with the object
 public:
-  // Default Constructor
+  // Polymorphism (Compile-time): Constructor overloading (Default Constructor)
   User() {
     id = "";
     name = "";
     state = "";
     email = "";
   }
-  // Overloaded Constructor
+  // Polymorphism (Compile-time): Constructor overloading (Overloaded Constructor)
   User(string u_id, string u_name, string u_state, string u_email) {
     id = u_id;
     name = u_name;

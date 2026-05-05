@@ -10,7 +10,9 @@ using namespace std;
 
 #include "Traveler.h"
 
+// Class definition (Encapsulation and Abstraction)
 class Hotel {
+// Encapsulation: Private members hiding internal state
 private:
   // private attribute declaration
   string hotelId;
@@ -21,15 +23,16 @@ private:
   int reviewCount;
   static const int MAX_REVIEWS = 50; // fixed size array for composition
 
+// Encapsulation: Public interface
 public:
-  // default constructor
+  // Polymorphism (Compile-time): Constructor overloading (Default Constructor)
   Hotel() {
     hotelId = "";
     hotelName = "";
     reviewCount = 0;
   }
 
-  // overloaded constructor
+  // Polymorphism (Compile-time): Constructor overloading (Overloaded constructor)
   Hotel(string h_id, string h_name) {
     hotelId = h_id;
     hotelName = h_name;
@@ -235,7 +238,7 @@ public:
     return removed;
   }
 
-  // OPERATOR OVERLOADING
+  // Polymorphism (Compile-time): Operator overloading
   bool operator>(const Hotel &other) const {
     return this->calculateAverageRating() > other.calculateAverageRating();
   }

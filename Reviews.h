@@ -6,16 +6,18 @@
 
 using namespace std;
 
-// Class Definition
+// Class Definition (Encapsulation and Abstraction)
 class Review {
+// Encapsulation: Private members hiding internal state
 private:
   string userID;
   double rating;
   string comment;
   string hotelName;
 
+// Encapsulation: Public interface
 public:
-  // Default Constructor
+  // Polymorphism (Compile-time): Constructor overloading (Default Constructor)
   Review() {
     userID = "";
     rating = 0.0;
@@ -23,7 +25,7 @@ public:
     hotelName = "";
   }
 
-  // Overloaded Constructor
+  // Polymorphism (Compile-time): Constructor overloading (Overloaded Constructor)
   Review(string id, double r, string c, string hName) {
     userID = id;
     rating = r;

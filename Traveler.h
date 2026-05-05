@@ -7,19 +7,21 @@
 
 using namespace std;
 
-// Derived Class from User Class (Inheritance)
+// Derived Class from User Class (Inheritance) - demonstrates 'Is-A' relationship
 class Traveler : public User {
+// Encapsulation: Private members hiding internal state
 private:
   string membershipLevel;
   int points;
 
+// Encapsulation: Public access modifier provides an interface to interact with the object
 public:
-  // Default Constructor
+  // Polymorphism (Compile-time): Constructor overloading (Default Constructor)
   Traveler() : User() {
     membershipLevel = "";
     points = 0;
   }
-  // Paramaterized Constructor
+  // Polymorphism (Compile-time): Constructor overloading (Paramaterized Constructor)
   Traveler(string u_id, string u_name, string u_state, string u_email,
            string t_tier, int t_points)
       : User(u_id, u_name, u_state, u_email) {
