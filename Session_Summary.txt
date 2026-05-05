@@ -1,3 +1,0 @@
-Hotel Review System Report
-Total Hotels in Memory: 12
-Total Registered Travelers: 10
